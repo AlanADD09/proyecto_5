@@ -1,0 +1,41 @@
+/* Proyecto 5 y 6 -- Domínguez Durán Alan Axel -- 4CM11 -- DSD */
+/* Estilos para el contenedor de la página del libro */
+.book-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Ajustar al inicio */
+    padding: 20px; /* Añade margen alrededor del contenedor */
+    box-sizing: border-box; /* Incluye el padding en el tamaño total */
+    background-color: #f7f7f7;
+}
+
+/* Estilos para el panel que contiene el contenido del libro */
+.book-panel {
+    max-width: 90%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: justify;
+    line-height: 1.6;
+    word-wrap: break-word;
+    /* overflow-y: scroll; */
+    padding: 20px; /* Añade un espacio interno al panel */
+    box-sizing: border-box; /* Incluye el padding en el tamaño total */
+}
+
+
+
+/* Estilos para el contenido del libro */
+#contenidoArchivo {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos para el contenedor interno del contenido */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ajusta el alto según sea necesario */
+}

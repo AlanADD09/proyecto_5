@@ -1,0 +1,75 @@
+/* //Proyecto 5 y 6 -- Domínguez Durán Alan Axel -- 4CM11 -- DSD */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Alinear al inicio del contenedor */
+  align-items: center;
+  min-height: 100vh; /* Agregado un mínimo para asegurar que se vea el contenido al principio y se pueda hacer scroll si es necesario */
+  background-color: #f2f2f2;
+  }
+  .search-container {
+    text-align: center;
+  }
+  .search-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  .search-input {
+    padding: 10px;
+    font-size: 1.5em;
+    width: 400px;
+    max-width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .search-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  .search-button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  .lista-libros {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lista-libros li {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  /* Agregar ancho máximo para limitar el tamaño horizontal */
+  max-width: 800px; /* Puedes ajustar este valor según tus necesidades */
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .lista-libros li:hover {
+    transform: scale(1.05);
+  }
+
+  .search-container.books-displayed {
+    margin-top: 10px; /* Reduciendo el espacio superior cuando se muestran los libros */
+  }

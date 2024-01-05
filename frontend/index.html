@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Búsqueda</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="search-container">
+    <div class="search-title">Search</div>
+    <form id="searchForm">
+      <input type="text" class="search-input" id="searchInput" placeholder="Introduce tu búsqueda...">
+      <button type="submit" class="search-button">Buscar</button>
+    </form>
+    <ul class="lista-libros" id="booksList">
+      <!-- Aquí se mostrarán dinámicamente los libros -->
+    </ul>
+  </div>
+
+  <script src="client.js"></script>
+</body>
+</html>
